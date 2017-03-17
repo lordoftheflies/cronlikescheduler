@@ -27,7 +27,7 @@ def read_file(filename):
         return f.read()
 
 setup(
-    name='pyschedule',
+    name='pysched',
     packages=['schedule'],
     version=SCHEDULE_VERSION,
     description='Job scheduling for humans.',
@@ -38,8 +38,7 @@ setup(
     url='https://github.com/dbader/schedule',
     download_url=SCHEDULE_DOWNLOAD_URL,
     keywords=[
-        'schedule', 'periodic', 'jobs', 'scheduling', 'clockwork',
-        'cron'
+        'schedule', 'periodic', 'jobs', 'scheduling', 'clockwork', 'cron'
     ],
     classifiers=[
         'Intended Audience :: Developers',
