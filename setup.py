@@ -14,9 +14,9 @@ import sys
 from setuptools import setup
 
 
-SCHEDULE_VERSION = '0.5.1'
+SCHEDULE_VERSION = '0.5.2'
 SCHEDULE_DOWNLOAD_URL = (
-    'https://github.com/dbader/schedule/tarball/' + SCHEDULE_VERSION
+    'https://github.com/lordoftheflies/cronlikescheduler/tarball/' + SCHEDULE_VERSION
 )
 
 def read_file(filename):
@@ -27,7 +27,7 @@ def read_file(filename):
         return f.read()
 
 setup(
-    name='pysched',
+    name='cronlikescheduler',
     packages=['schedule'],
     version=SCHEDULE_VERSION,
     description='Job scheduling for humans.',
@@ -35,7 +35,7 @@ setup(
     license='MIT',
     author='Daniel Bader',
     author_email='mail@dbader.org',
-    url='https://github.com/dbader/schedule',
+    url='https://github.com/lordoftheflies/cronlikescheduler',
     download_url=SCHEDULE_DOWNLOAD_URL,
     keywords=[
         'schedule', 'periodic', 'jobs', 'scheduling', 'clockwork', 'cron'
