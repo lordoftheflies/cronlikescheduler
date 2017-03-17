@@ -14,7 +14,7 @@ import sys
 from setuptools import setup
 
 
-SCHEDULE_VERSION = '0.4.1'
+SCHEDULE_VERSION = '0.5.0'
 SCHEDULE_DOWNLOAD_URL = (
     'https://github.com/dbader/schedule/tarball/' + SCHEDULE_VERSION
 )
@@ -27,7 +27,7 @@ def read_file(filename):
         return f.read()
 
 setup(
-    name='schedule',
+    name='pyschedule',
     packages=['schedule'],
     version=SCHEDULE_VERSION,
     description='Job scheduling for humans.',
